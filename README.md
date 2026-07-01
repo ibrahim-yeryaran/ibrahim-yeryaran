@@ -42,10 +42,3 @@ Every project has a README, tests, and a green CI pipeline.
 
 **Together they cover the full data-engineering lifecycle:** ingestion → streaming →
 transformation → modeling → cloud warehousing → distributed processing → serving.
-
----
-
-## 📈 GitHub Stats
-
-![İbrahim's GitHub stats](https://github-readme-stats.vercel.app/api?username=ibrahim-yeryaran&show_icons=true&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim-yeryaran&layout=compact&hide_border=true)
