@@ -33,6 +33,7 @@ Every project has a README, tests, and a green CI pipeline.
 
 | Project | What it demonstrates | Stack |
 | ------- | -------------------- | ----- |
+| [🌬️ EU Air Quality Platform](https://github.com/ibrahim-yeryaran/eu-air-quality-platform) ⭐ | **Capstone:** one Airflow DAG orchestrating ingestion → dbt → a **data-quality gate** → EU/WHO exceedance reporting | Airflow, dbt, PostgreSQL, Docker |
 | [🚕 NYC Taxi — PySpark Analytics](https://github.com/ibrahim-yeryaran/nyc-taxi-spark) | Distributed processing of ~9M rows: broadcast joins, window functions, mixed-schema handling | PySpark, Java |
 | [📡 Wikimedia Real-Time Pipeline](https://github.com/ibrahim-yeryaran/wikimedia-realtime-pipeline) | Real-time streaming of Wikipedia's live edit feed into running aggregates | Kafka, PostgreSQL, Docker |
 | [🚕 NYC Taxi — dbt Pipeline](https://github.com/ibrahim-yeryaran/nyc-taxi-dbt-pipeline) | ELT + a tested, documented **star schema** (fact/dim, referential-integrity tests) | dbt, DuckDB |
@@ -41,4 +42,5 @@ Every project has a README, tests, and a green CI pipeline.
 | [🌍 CO₂ Emissions Explorer](https://github.com/ibrahim-yeryaran/co2-emissions-dashboard) | Interactive dashboard with a **live public demo** 🔗 | Streamlit, Plotly |
 
 **Together they cover the full data-engineering lifecycle:** ingestion → streaming →
-transformation → modeling → cloud warehousing → distributed processing → serving.
+transformation → modeling → cloud warehousing → distributed processing → serving —
+**integrated end-to-end in the capstone platform.**
